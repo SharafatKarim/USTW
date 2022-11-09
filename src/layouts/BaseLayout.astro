@@ -1,0 +1,26 @@
+---
+import SEO from "../components/SEO.astro";
+
+import "../styles/base.css";
+import "../styles/custom.css";
+
+const { title, description } = Astro.props;
+---
+
+<html lang="en">
+  <SEO title={title} description={description} />
+
+  <body>
+    <div class="container">
+      <main>
+        <slot />
+      </main>
+
+      <footer>
+        <section>
+          © {new Date().getFullYear()} <a href="https://github.com/theafnansami/USTW">Github</a> 
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

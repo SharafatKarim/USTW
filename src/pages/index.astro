@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Section from "../components/Section.astro";
+import OutlineHeading from "../components/OutlineHeading.astro";
+import NoteListItem from "../components/NoteListItem.astro";
+import { notesAndTags } from "../helpers/notes";
+
+const notes = await Astro.glob("../notes/*.md");
+const { allNotes, allTags } = notesAndTags(notes);
+const tagsSorted = allTags ? Object.keys(allTags).sort() : [];
+
+let title = `Unique Sites That Works`;
+let description = `Unique Sites That Works! by Afnan Sami`;
+---
+
+<style>
+  .tags {
+    text-align: center;
+    padding: 0;
+  }
+  .tags li {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<BaseLayout title={title} description={description}>
+  <section>
+    <OutlineHeading>Browse Sites by tag</OutlineHeading>
+    <Section>
+      <ul class="tags">
+        {
+          tagsSorted.map((tag) => (
+            <li>
+              <a href={`/tag/${tag}/`} class={`tag ${tag}`}>
+                {tag}|{allTags[tag].length}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </Section>
+
+    <OutlineHeading>Unique Sites That Works!</OutlineHeading>
+    <Section>
+      <ul>
+        {
+          allNotes.map(
+            ({ url, frontmatter: { description, site, title, tags } }) => (
+              <NoteListItem {url} {description} {site} {title} {tags} />
+            )
+          )
+        }
+      </ul>
+    </Section>
+  </section>
+</BaseLayout>

@@ -1,0 +1,17 @@
+{
+  "name": "@theafnansami/ustw",
+  "version": "3.0.0",
+  "description": "Unique Sites That Works!",
+  "license": "MIT",
+  "author": "Afnan Sami",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "1.0.0",
+    "astro": "1.6.5"
+  }
+}
