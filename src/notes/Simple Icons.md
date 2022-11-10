@@ -1,4 +1,3 @@
-
 ---
 
 title: Simple Icons
