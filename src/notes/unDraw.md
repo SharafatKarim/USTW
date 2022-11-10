@@ -1,11 +1,11 @@
 
 ---
 
-title: # unDraw
+title: # UnDraw
 
 site: https://undraw.co/
 
-description: ## Beautiful SVG images that you can use completely free and without attribution.
+description: Beautiful SVG images that you can use completely free and without attribution.
 
 tags: [illustrations, svg, design]
 
