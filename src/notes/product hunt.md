@@ -2,5 +2,5 @@
 title: product hunt
 site: https://www.producthunt.com/
 description: Share and discover new products
-tags: [cloud, tool, life]
+tags: [cloud, store, discover]
 ---

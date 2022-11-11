@@ -2,5 +2,5 @@
 title: Duckduckgo
 site: https://duckduckgo.com/
 description: Private Web Searching
-tags: [cloud]
+tags: [cloud, search]
 ---

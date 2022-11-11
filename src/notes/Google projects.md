@@ -2,5 +2,5 @@
 title: Google projects
 site: https://console.cloud.google.com/start
 description: Google Cloud
-tags: [cloud, tool, development]
+tags: [cloud, development, tool]
 ---
