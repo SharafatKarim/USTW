@@ -17,9 +17,5 @@
   "overrides": {
     "js-yaml": "^4.3.2"
   },
-  "pnpm": {
-    "overrides": {
-      "js-yaml": "^4.3.2"
-    }
-  }
+  "packageManager": "pnpm@11.26.0"
 }
