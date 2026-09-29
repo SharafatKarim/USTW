@@ -13,5 +13,13 @@
   "devDependencies": {
     "@astrojs/sitemap": "1.0.0",
     "astro": "1.6.5"
+  },
+  "overrides": {
+    "js-yaml": "^4.3.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "js-yaml": "^4.3.2"
+    }
   }
 }
