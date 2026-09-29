@@ -15,7 +15,7 @@
     "astro": "7.2.8"
   },
   "overrides": {
-    "js-yaml": "^4.3.2"
+    "sitemap": "7.1.1"
   },
   "packageManager": "pnpm@11.26.0"
 }
