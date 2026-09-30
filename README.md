@@ -1,6 +1,11 @@
 # Unique Sites That Works!
 
-List of sites maybe you need to explore.
+List of sites maybe you need to explore. 
+
+
+> [!IMPORTANT]
+> Poject moved! Currently please visit the following website to explore,
+> - [Bookmarks collection](https://sharafat.pages.dev/bookmarks/)
 
 
 
